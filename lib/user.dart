@@ -29,7 +29,8 @@ class UserWidget extends StatelessWidget {
         UserEntryWidget(
             propertyName: 'Updated at',
             propertyValue: user?.updatedAt?.toIso8601String()),
-      ]))
+      ])),
+      const Text("You are now in your personal protected area.")
     ]);
   }
 }

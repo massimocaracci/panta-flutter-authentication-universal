@@ -38,6 +38,12 @@ class HeroWidget extends StatelessWidget {
                           height: 0.8,
                           fontWeight: FontWeight.w600,
                         )),
+                    Text('...',
+                        style: GoogleFonts.spaceGrotesk(
+                          fontSize: 70,
+                          height: 0.8,
+                          fontWeight: FontWeight.w600,
+                        )),
                   ])))
     ]);
   }

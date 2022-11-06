@@ -49,6 +49,7 @@ class _ExampleAppState extends State<ExampleApp> {
   @override
   Widget build(final BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
           body: Padding(
         padding: const EdgeInsets.only(

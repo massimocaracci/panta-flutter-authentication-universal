@@ -32,9 +32,9 @@ class HeroWidget extends StatelessWidget {
                           height: 0.8,
                           fontWeight: FontWeight.w800,
                         )),
-                    Text('Sample App',
+                    Text('Pantasoft App',
                         style: GoogleFonts.spaceGrotesk(
-                          fontSize: 80,
+                          fontSize: 70,
                           height: 0.8,
                           fontWeight: FontWeight.w600,
                         )),
